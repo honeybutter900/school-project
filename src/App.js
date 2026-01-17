@@ -15,10 +15,10 @@ function App() {
     <div className='App'>
       <Header/>
       {/* <LoginHeader /> */}
-      {/* <Main/> */}
+      <Main/>
       {/* <Community/> */}
       {/* <CommunityView/> */}
-      <CommunityInput/>
+      {/* <CommunityInput/> */}
       {/* <Login /> */}
       {/* <MemberInput/> */}
     </div>
