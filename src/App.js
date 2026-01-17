@@ -5,15 +5,20 @@ import Main from './Main.jsx';
 import Community from './pages/Community.jsx';
 import CommunityInput from './pages/CommunityInput.jsx';
 import CommunityView from './pages/CommunityView.jsx';
+import Login from './pages/Login.jsx';
+import LoginHeader from './components/loginheader.jsx';
+
 
 function App() {
   return (
     <div className='App'>
-    <Header/>
+    {/* <Header/> */}
+    <LoginHeader/>
     {/* <Main/> */}
     {/* <Community/> */}
     {/* <CommunityView/> */}
-    <CommunityInput/>
+    {/* <CommunityInput/> */}
+    <Login/>
     </div>
   ); 
 }

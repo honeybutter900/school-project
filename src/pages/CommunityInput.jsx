@@ -1,3 +1,6 @@
+const no = () => {
+    alert("아직 구현되지 않은 기능입니다.");};
+
 function CommunityInput() {
     return (
         <div className="Community-input">
@@ -21,8 +24,8 @@ function CommunityInput() {
             </div>
             <div className="Community-input-footer">
                 <div className="Community-input-footer-content">
-                    <button className="picture"><img src="./images/icon/picture.png" alt="사진" /></button>
-                    <button className="link"><img src="./images/icon/link.png" alt="파일" /></button>
+                    <button className="picture" onClick={no}><img src="./images/icon/picture.png" alt="사진" /></button>
+                    <button className="link" onClick={no}><img src="./images/icon/link.png" alt="파일" /></button>
                 </div>
                 <button className="Community-input-button">등록</button>
             </div>

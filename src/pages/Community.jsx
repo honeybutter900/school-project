@@ -33,6 +33,7 @@ function Community() {
                 <CommunityPost />
             </div>
             <footer className="Community-footer">
+                <div className="Community-footer-content">
                 <div className="page-number">
                     <button className="prev">←</button>
                     <button>1</button>
@@ -43,6 +44,8 @@ function Community() {
                     <span>...</span>
                     <button>23</button>
                     <button className="next">→</button>
+                </div>
+                <button className="write-button"><img src="./images/icon/pan.png" alt="" /></button>
                 </div>
             </footer>
         </section>
