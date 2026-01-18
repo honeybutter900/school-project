@@ -1,6 +1,6 @@
 
 import './App.css';
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header.jsx';
 import Main from './Main.jsx';
@@ -14,19 +14,20 @@ import MemberInput from './pages/MemberInput.jsx';
 
 function App() {
   return (
-    <div className='App'>
-      {/* <Header/> */}
-      {/* <LoginHeader /> */}
-      <Routes>
-        <Route path="/" element={<Main/>}></Route>
-        
-      {/* <Community/> */}
-      {/* <CommunityView/> */}
-      {/* <CommunityInput/> */}
-      {/* <Login /> */}
-      {/* <MemberInput/> */}
-      </Routes>
-    </div>
+    <BrowserRouter>
+      <div className='App'>
+        <Header/>
+        {/* <LoginHeader /> */}
+        <Routes>
+          <Route path="/" element={<CommunityView />}></Route>
+          {/* <Route path="/community" element={<Community />}></Route>
+          <Route path="/view" element={<CommunityView />}></Route>
+          <Route path="/input" element={<CommunityInput />}></Route>
+          <Route path='/login' element={<Login />}></Route>
+          <Route path='/memberinput' element={<MemberInput />}></Route> */}
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
